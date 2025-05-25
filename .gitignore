@@ -22,11 +22,16 @@ env/
 *.sqlite3
 
 # Output files
-output/
-json_followings/
+output/*
+!output/.gitkeep
+
+# Intermediate files
+json_followings/*
+!json_followings/.gitkeep
 
 # Private data
-network_logs/
+network_logs/*
+!network_logs/.gitkeep
 *.har
 input_followers.json
 instagram_profile_links.json
