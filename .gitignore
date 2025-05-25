@@ -27,4 +27,10 @@ json_followings/
 
 # Private data
 network_logs/
-*.har 
+*.har
+input_followers.json
+instagram_profile_links.json
+user_followings_to_json_links.py
+
+# OS files
+.DS_Store 
