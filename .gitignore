@@ -23,4 +23,8 @@ env/
 
 # Output files
 output/
-json_followings/ 
+json_followings/
+
+# Private data
+network_logs/
+*.har 
